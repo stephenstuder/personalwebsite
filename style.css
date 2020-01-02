@@ -54,12 +54,25 @@ h3 {
 .about {
     background: #fff;
     display: flex;
-    flex-direction: column;
-    margin: 0px 20px;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: row;
+    margin: 0px 40px;
+    align-items: flex-start;
     border-radius: 20px;
 }
 .image {
     background: white;
+    padding: 10px;
+}
+.family {
+border-radius: 18px 0px 20px 0px;
+}
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px 10px;
+}
+.socialButtons {
+    display: flex;
+    justify-content: center;
 }
