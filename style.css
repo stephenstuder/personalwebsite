@@ -106,7 +106,7 @@ li {
 
 .about {
     background: #fff;
-    display: none;
+    display: flex;
     flex-direction: row;
     margin: 0px 40px;
     align-items: flex-start;
@@ -142,7 +142,7 @@ border-radius: 18px 0px 20px 0px;
 /* Projects Page */
 
 .projectsWrapper {
-    display: none;
+    display: flex;
     justify-content: space-around;
     min-width:800px;
 }
@@ -177,7 +177,7 @@ border-radius: 18px 0px 20px 0px;
 /* Contact Page */
 
 .contactForm {
-    display: none;
+    display: flex;
     flex-direction: column;
     width: 400px;
     height: 167px;
@@ -268,4 +268,11 @@ border-radius: 18px 0px 20px 0px;
 }
 .show {
     display: flex
+}
+.transition-fade{
+    transition: .5s;
+    opacity: 1;
+}
+html.is-animating .transition-fade{
+    opacity: 0;
 }
