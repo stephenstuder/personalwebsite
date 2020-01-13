@@ -1,0 +1,271 @@
+@font-face{
+    font-family: SpaceMono;
+    src: url(fonts/SpaceMono-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face{
+    font-family: SpaceMono;
+    src: url(fonts/SpaceMono-Bold.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+body{
+    background-color: #09360d;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23082e0b' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    font-family: 'SpaceMono', sans-serif;
+}
+h1, h2, h3 {
+margin: 0;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 21px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+input, textarea {
+    width: 95%;
+    border: none;
+    background: #f6f6f6;
+    padding: 10px;
+    border-radius: 10px;
+    resize:none;
+    font-family: 'SpaceMono', sans-serif;
+}
+input:focus, textarea:focus {
+    outline:none;
+    
+}
+button {
+    padding: 7px 12px;
+    border: none;
+    margin: 20px;
+    border-radius:10px;
+    font-family: inherit;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+}
+/* Stuff for the menu */
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menu:hover{
+    text-decoration: underline;
+}
+
+/* landing page */
+
+.content {
+    height: 85vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+.headshot {
+    border-radius: 100%;
+    border: 10px solid white;
+}
+
+/* About Page */
+
+.about {
+    background: #fff;
+    display: none;
+    flex-direction: row;
+    margin: 0px 40px;
+    align-items: flex-start;
+    border-radius: 20px;
+    width: 80vw;
+}
+.socialButtons{
+    border-radius: 20px;
+}
+.image {
+    padding: 10px;
+    transition: transform .2s;
+}
+.image:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.family {
+border-radius: 18px 0px 20px 0px;
+}
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px 10px;
+}
+.socialButtons {
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+/* Projects Page */
+
+.projectsWrapper {
+    display: none;
+    justify-content: space-around;
+    min-width:800px;
+}
+.project{
+    background: white;
+    width: 350px;
+}
+.allHands, .moreComing {
+    border-radius: 18px 18px 0px 0px;
+}
+.project {
+    border-radius: 20px;
+}
+.project > h4 , p {
+    margin: 10px;
+}
+.project > h4 {
+    display: flex;
+    justify-content: center;
+    color: #035271;
+    transition: transform .2s;
+}
+.project > h4:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.allHands {
+    object-fit: cover;
+    height: 350px;
+}
+
+/* Contact Page */
+
+.contactForm {
+    display: none;
+    flex-direction: column;
+    width: 400px;
+    height: 167px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    margin:10px;
+}
+.message{
+    height: 150px;
+}
+.btn {
+    transition: transform .2s;
+    align-self: flex-end;
+}
+.btn:hover {
+    transform: scale(1.2);
+}
+.or {
+    align-self: center;
+    padding: 20px 0px;
+}
+.contactIcons {
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:900px){
+    /* About Page */
+    .about {
+        flex-direction: column;
+        margin: 40px 0px;
+    }
+    .headerAbout {
+        text-align:center;
+        font-size: 60px;
+        padding: 20px 0px;
+    }
+    .family {
+     border-radius: 18px 18px 0px 0px;
+     width: 80vw;
+     height: 50vh;
+     object-fit: cover;
+     }
+}
+@media screen and (max-width:550px){
+    
+    /* Menu Page */
+    h3 {
+        font-size: 20px;
+    }
+    #menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .menu {
+        font-size: 40px;
+        padding: 10px 0px;
+    }
+    /* About Stephen */
+    .headerAbout{
+        padding: 25px 0px 40px 0px;
+    }
+    .aboutStephen{
+        line-height: 2.2em;
+    }
+    /* Projects Page */
+    
+    .projectsWrapper{
+        flex-direction: column;
+        min-width: 0px;
+    }
+    .project {
+        margin-bottom: 40px;
+    }
+    .image{
+        width:60%;
+    }
+    /* Contact Page */
+    .stephen{
+        text-align:center;
+    }
+}
+.hide {
+    display: none;
+}
+.show {
+    display: flex
+}
