@@ -24,6 +24,8 @@
       }
     });
 
+
+    // Laxxx init
     window.onload = () => {
       lax.setup() // init
     
