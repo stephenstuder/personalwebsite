@@ -3,7 +3,12 @@
     "use strict"; 
   
     // Initialize copy to clipboard
-    new ClipboardJS('.btn');
+    new ClipboardJS('#tooltip-email');
+
+    // Success tooltip
+    $("#tooltip-email").on("click", () => {
+      $("#tooltip-email").attr('data-original-title', "Copied!").tooltip('show');
+    });
 
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
@@ -19,7 +24,7 @@
       }
     });
 
-    window.onload = function() {
+    window.onload = () => {
       lax.setup() // init
     
       const updateLax = () => {
