@@ -18,6 +18,8 @@
   "homepage": "https://github.com/stephenstuder/stephenstuder.github.io-2-#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
     "tailwindcss": "^2.0.2"
   }
 }
