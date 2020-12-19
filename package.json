@@ -1,0 +1,23 @@
+{
+  "name": "stephen-portfolio",
+  "version": "2.0.0",
+  "description": "Complete rewrite of the original portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenstuder/stephenstuder.github.io-2-.git"
+  },
+  "author": "Stephen Studer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephenstuder/stephenstuder.github.io-2-/issues"
+  },
+  "homepage": "https://github.com/stephenstuder/stephenstuder.github.io-2-#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
