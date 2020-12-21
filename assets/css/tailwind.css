@@ -27069,6 +27069,10 @@ video {
   width: 100%;
 }
 
+.w-fit-content {
+  width: fit-content;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -27083,6 +27087,10 @@ video {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+}
+
+.dropshadow {
+  filter: drop-shadow(0 0 0.75rem rgb(255, 145, 0))
 }
 
 .z-0 {
