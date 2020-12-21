@@ -11,79 +11,27 @@
         <link rel="stylesheet" href="./tailwind.css" />
         <!-- font awesome -->
     </head>
-    <body class="md:container md:mx-auto font-mono bg-blue-100">
+    <body class="md:container md:mx-auto font-mono bg-blue-100 text-xl">
         <header>
             <div class="flex">
-                <h1 class="bg-black text-3xl text-white p-5 m-5 font-bold inline-flex">Stephen Studer</h1>
-                <div class="flex h-100 items-center space-x-3.5">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="feather feather-linkedin"
-                    >
-                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                        <rect x="2" y="9" width="4" height="12"></rect>
-                        <circle cx="4" cy="4" r="2"></circle>
-                    </svg>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="feather feather-github"
-                    >
-                        <path
-                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                        ></path>
-                    </svg>
-                </div>
+                <h1 class="bg-black text-4xl text-white p-5 m-5 font-bold inline-flex">Stephen Studer</h1>
             </div>
         </header>
 
         <p>***************************************************</p>
 
         <section class="flex w-full" id="about">
-            <div class="w-full m-5">
+            <div class="w-full m-5 space-y-3.5">
                 <!-- About Section Heading-->
                 <div class="flex">
-                    <h2 class="bg-black text-2xl text-white px-5 py-2 font-bold inline-flex">ABOUT</h2>
+                    <h2 class="bg-black text-3xl text-white px-5 py-2 font-bold inline-flex">ABOUT</h2>
                 </div>
-                <!-- Icon Divider-->
-                <div class="">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="feather feather-external-link"
-                    >
-                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                        <polyline points="15 3 21 3 21 9"></polyline>
-                        <line x1="10" y1="14" x2="21" y2="3"></line>
-                    </svg>
-                </div>
+
                 <!-- About Section Content-->
                 <div class="">
                     <div class="">
                         <!-- prettier-ignore -->
-                        <p class=""> Right here write a bio possibly
+                        <p> Hello, my name is Stephen and I am a front end web developer based out of Arizona. I love all things <b class="text-yellow-600">Javascript</b> but especially love <b class="text-green-500">Vue.js</b>. 
                         </p>
                     </div>
 
@@ -97,29 +45,25 @@
         </section>
         <p>***************************************************</p>
         <section class="flex w-full" id="about">
-            <div class="w-full m-5">
+            <div class="w-full m-5 space-y-3.5">
                 <!-- About Section Heading-->
                 <div class="flex">
-                    <h2 class="bg-black text-2xl text-white px-5 py-2 font-bold inline-flex">PROJECTS</h2>
+                    <h2 class="bg-black shadow-2xl text-3xl text-white px-5 py-2 font-bold inline-flex">EXPERIENCE</h2>
                 </div>
-                <!-- Icon Divider-->
-                <div class="">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="feather feather-external-link"
-                    >
-                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                        <polyline points="15 3 21 3 21 9"></polyline>
-                        <line x1="10" y1="14" x2="21" y2="3"></line>
-                    </svg>
+                <!-- About Section Content-->
+                <ul class="list-inside">
+                    <li>Trek Bicycle Corp</li>
+                    <li>Centuri Contruction</li>
+                    <li>JOA Software</li>
+                </ul>
+            </div>
+        </section>
+        <p>***************************************************</p>
+        <section class="flex w-full" id="about">
+            <div class="w-full m-5 space-y-3.5">
+                <!-- About Section Heading-->
+                <div class="flex">
+                    <h2 class="bg-black shadow-2xl text-3xl text-white px-5 py-2 font-bold inline-flex">PROJECTS</h2>
                 </div>
                 <!-- About Section Content-->
                 <div class="">
@@ -139,57 +83,90 @@
         </section>
         <p>***************************************************</p>
 
-        <section class="flex w-full p-5 mx-5" id="">
-            <div class="w-full">
+        <section class="flex w-full" id="">
+            <div class="w-full m-5 space-y-3.5">
                 <!-- Contact Section Heading-->
                 <div class="">
-                    <h2 class="text-3xl shadow-underline">CONTACT</h2>
+                    <h2 class="bg-black text-3xl text-white px-5 py-2 font-bold inline-flex">GET IN TOUCH</h2>
                 </div>
-                <!-- Icon Divider-->
-                <div class="">
-                    <div class=""></div>
-                </div>
+
                 <!-- Contact Section Content-->
                 <div class="">
                     <div class="">
-                        <div class="">
-                            <div class="">
-                                <i class=""></i>
-                            </div>
-                            <div class="">Phone</div>
-                            <div class="">(480) 250-8235</div>
+                        <div class="flex space-x-3.5">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="feather feather-mail"
+                            >
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+
+                            <a>- stephenkstuder@gmail.com</a>
                         </div>
-                    </div>
-                    <div class="">
-                        <div class="">
-                            <div class="">
-                                <i class=""></i>
-                            </div>
-                            <div class="">Email</div>
-                            <a>stephenkstuder@gmail.com</a>
+                        <div class="flex space-x-3.5">
+                            <!-- Linkedin -->
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="feather feather-linkedin"
+                            >
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                            <a class="break-all">- linkedin.com/in/stephenkstuder/</a>
+                        </div>
+                        <div class="flex space-x-3.5">
+                            <!-- Github -->
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="feather feather-github"
+                            >
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                                ></path>
+                            </svg>
+                            <a>- github.com/stephenstuder</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <footer class="flex w-full p-5 mx-5">
+        <p>***************************************************</p>
+
+        <footer class="flex w-full">
             <div class="">
-                <div class="">
+                <div class="m-5 space-y-3.5">
                     <!-- Footer Location-->
                     <div class="">
-                        <h4 class="text-3xl">LOCATION</h4>
+                        <h4 class="bg-black text-3xl text-white px-5 py-2 font-bold inline-flex">LOCATION</h4>
                         <p class="">Queen Creek, Arizona, 85142</p>
                     </div>
                     <!-- Footer Social Icons-->
-                    <div class="">
-                        <h4 class="">PROFILE LINKS</h4>
-                        <a class="" rel="noreferrer" name="social media" target="_blank" href="https://github.com/stephenstuder">
-                            <i class="fab fa-fw fa-github"></i>
-                        </a>
-                        <a class="" rel="noreferrer" name="social media" target="_blank" href="https://www.linkedin.com/in/stephenkstuder/">
-                            <i class="fab fa-fw fa-linkedin-in"></i>
-                        </a>
-                    </div>
                 </div>
             </div>
         </footer>
