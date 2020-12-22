@@ -10,3 +10,6 @@ body::-webkit-scrollbar-thumb {
     background-color: black;
     outline: 1px solid slategrey;
 }
+.marker {
+    font-family: "Permanent Marker", cursive;
+}
