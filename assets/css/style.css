@@ -13,3 +13,7 @@ body::-webkit-scrollbar-thumb {
 .marker {
     font-family: "Permanent Marker", cursive;
 }
+.text-border {
+    -webkit-text-stroke-width: 0.75px;
+    -webkit-text-stroke-color: black;
+}
