@@ -17,3 +17,9 @@ body::-webkit-scrollbar-thumb {
     -webkit-text-stroke-width: 0.75px;
     -webkit-text-stroke-color: black;
 }
+.highlight {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: 3px;
+}
